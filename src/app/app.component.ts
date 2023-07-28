@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ResumeApp';
+  isNavbarOpen = false;
+  toggleClick(){
+    this.isNavbarOpen = !this.isNavbarOpen;
+    console.log(this.isNavbarOpen);
+  }
 }

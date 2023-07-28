@@ -1,0 +1,22 @@
+#navbar{
+    padding:10px;
+}
+
+#home, #experience, #about, #contact{
+    margin-left: 10%;
+    font-size: 1.2em;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color:black;
+}
+
+
+#title{
+    font-size:1.6em;
+    margin-left: 1.5%;
+}
+
+.navbar-collapse.show{
+    display: block;
+}
